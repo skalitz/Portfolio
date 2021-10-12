@@ -1,0 +1,153 @@
+/* Small Victories portfolio theme v1.0 */
+
+/* Main page */
+
+.clear {
+  clear: both;
+}
+
+a:hover {
+  background-color: gold;
+}
+
+.sv-feed {
+  padding: 0 10px 20px;
+}
+
+.sv-feed-inner {
+  padding: 0;
+}
+
+.sv-feed-meta {
+  display: block;
+}
+
+.sv-feed-control {
+    font-size: 20px;
+    letter-spacing: 1px;
+    position: fixed;
+    right: 20px;
+}
+
+.sv-feed-info {
+    background-color: rgba(255, 255, 255, 0.95);
+    left: 0;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+
+/*  Project listings */
+
+.sv-feed-item {
+  padding: 20px 10px 0;
+  position: relative;
+  width: 100%;
+}
+
+.sv-feed-item img {
+  width: 100%;
+  border: 1.5px solid #555;
+  max-width: none;
+}
+
+.sv-feed-item.cover {
+  padding: 20px 0 0;
+}
+
+.sv-feed-item.cover > div {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.sv-feed-item.cover video {
+  width: 100%;
+}
+
+.sv-feed-item.thumb {
+  width: 50%;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: inherit;
+  padding-left: 20px;
+}
+
+/* type */
+.sv-feed p, .sv-feed h2, .sv-feed h3, .sv-feed h4, .sv-feed h5, .sv-feed h6, .sv-feed li, .sv-feed span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+
+.sv-feed-item-markdown {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.sv-feed h1 {
+  font-size: 50px;
+  padding-top: 15px}
+
+.sv-feed-info h1 {display: none;}
+
+.sv-feed p {
+  max-width: 500px;
+}
+
+.sv-feed-item-photo-caption p {
+  max-width: 100%;
+  padding-top: 10px;
+}
+
+.header p {
+  max-width: 100%;
+  font-size: 70px;
+  line-height: .5;
+  margin-top: 10px;
+}
+
+.half.header p {
+  padding-right: 40px;
+  margin-top: 0;
+}
+
+.section p {
+  max-width: 600px;
+  margin-left: 20%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+
+  .sv-feed-item.half {
+    width: 50%;
+  }
+
+  .sv-feed-item.third {
+    width: 33.3%;
+  }
+
+  .sv-feed-item.thumb {
+    width: 16.666666667%;
+  }
+
+  .sv-feed h1 {
+      font-size: 75px;
+      margin-bottom: 30px;
+      margin-top: 15px;
+    }
+}
+
+@media (min-width: 1024px) {
+  .sv-feed-info {
+    padding: 100px 0;
+    margin-left: 16.666667%;
+    margin-right: 16.666667%;
+  }
+}
