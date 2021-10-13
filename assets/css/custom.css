@@ -49,7 +49,9 @@ body {
 h1, h2, p, a {
     font-family: 'IBM Plex Serif', times, serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: normal;
+    font-style: normal;
+    font-weight: normal;
     font-size: 1.125rem;
     margin: 0;
     padding: 0;
@@ -57,16 +59,20 @@ h1, h2, p, a {
 
 em {
     font-family: 'IBM Plex Serif Italic', times, serif;
+    font-style: italic;
+    font-weight: normal;
 }
 
 strong {
     font-family: 'IBM Plex Serif Bold', times, serif;
+    font-style: normal;
+    font-weight: normal;
 }
 
 .sans {
     font-family: 'IBM Plex Sans', Arial, sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: normal;
 }
 
 .header {
@@ -86,8 +92,8 @@ strong {
 }
 
 .header-item {
-    padding-right: 4rem;
-    width: 12%;
+    padding-right: 4%;
+    width: 14%;
 }
 
 .header-item.note {
@@ -135,8 +141,8 @@ nav ul li a {
 }
 
 .projects-header-item {
-    padding-right: 4rem;
-    width: 12%;
+    padding-right: 4%;
+    width: 14%;
 }
 
 .projects-header-item.note {
@@ -226,8 +232,8 @@ a:hover {
 }
 
 .contact-header-item {
-    padding-right: 4rem;
-    width: 12%;
+    padding-right: 4%;
+    width: 14%;
 }
 
 .contact-header-item.note {
@@ -242,7 +248,7 @@ a:hover {
 .contact-text p, .contact-text p a {
     font-family: 'IBM Plex Sans', Arial, sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: normal;
     font-size: 2rem;
 }
 
