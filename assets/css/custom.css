@@ -255,5 +255,19 @@ a:hover {
 
   Include your desktop styles here
 */
-@media screen and (min-width: 768px){
+@media screen and (max-width: 768px){
+    .header, .projects-header, .contact-header {
+        flex-direction: column;
+    }
+    .header-item, .projects-header-item, .contact-header-item {
+        padding-right: 1rem;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .row li {
+        width: 50%;
+    }
+    .contact-text p, .contact-text p a {
+        font-size: 1.675rem;
+    }
 }
