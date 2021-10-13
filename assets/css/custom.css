@@ -39,7 +39,7 @@ body {
     height: 100vh;
     background-image: url('../images/books.jpg');
     background-size: cover;
-    color: #e4ecf1;
+    color: white;
 }
 
 .sv-homepage .sv-homepage-inner {
