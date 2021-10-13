@@ -243,6 +243,7 @@ a:hover {
 .contact-text {
     box-sizing: border-box;
     width: 100%;
+    padding-right: 2%;
 }
 
 .contact-text p, .contact-text p a {
@@ -258,8 +259,6 @@ a:hover {
 
 /*
   Mobile First!
-
-  Include your desktop styles here
 */
 @media screen and (max-width: 768px){
     .header, .projects-header, .contact-header {
