@@ -69,6 +69,18 @@ strong {
     font-weight: normal;
 }
 
+.off_screen {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    padding: .5em;
+    margin: .5em;
+    font-size: 1px;
+}
+
 .sans {
     font-family: 'IBM Plex Sans', Arial, sans-serif;
     font-style: normal;
@@ -225,6 +237,7 @@ a:hover {
 .contact {
     position: relative;
     min-height: 100vh;
+    min-height: calc(100vh - 3.5rem);
     border-top: 1px solid;
     box-sizing: border-box;
     width: 100%;
@@ -269,6 +282,32 @@ a:hover {
 
 .contact-text p {
     margin-bottom: 1.5rem;
+}
+
+footer {
+    border-top: 1px solid;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem 1rem 1rem;
+}
+
+.footer-header {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.footer-header-item {
+    padding-right: 4%;
+    width: 14%;
 }
 
 /*
